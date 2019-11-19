@@ -1,0 +1,16 @@
+C:\Users\pedro.dantas\source\repos\WebApplication\WebApplication\bin\Debug\netcoreapp2.1\WebApplication.deps.json
+C:\Users\pedro.dantas\source\repos\WebApplication\WebApplication\bin\Debug\netcoreapp2.1\WebApplication.runtimeconfig.json
+C:\Users\pedro.dantas\source\repos\WebApplication\WebApplication\bin\Debug\netcoreapp2.1\WebApplication.runtimeconfig.dev.json
+C:\Users\pedro.dantas\source\repos\WebApplication\WebApplication\bin\Debug\netcoreapp2.1\WebApplication.dll
+C:\Users\pedro.dantas\source\repos\WebApplication\WebApplication\bin\Debug\netcoreapp2.1\WebApplication.pdb
+C:\Users\pedro.dantas\source\repos\WebApplication\WebApplication\obj\Debug\netcoreapp2.1\WebApplication.csprojAssemblyReference.cache
+C:\Users\pedro.dantas\source\repos\WebApplication\WebApplication\obj\Debug\netcoreapp2.1\WebApplication.RazorAssemblyInfo.cache
+C:\Users\pedro.dantas\source\repos\WebApplication\WebApplication\obj\Debug\netcoreapp2.1\WebApplication.RazorAssemblyInfo.cs
+C:\Users\pedro.dantas\source\repos\WebApplication\WebApplication\obj\Debug\netcoreapp2.1\WebApplication.AssemblyInfoInputs.cache
+C:\Users\pedro.dantas\source\repos\WebApplication\WebApplication\obj\Debug\netcoreapp2.1\WebApplication.AssemblyInfo.cs
+C:\Users\pedro.dantas\source\repos\WebApplication\WebApplication\obj\Debug\netcoreapp2.1\WebApplication.RazorTargetAssemblyInfo.cache
+C:\Users\pedro.dantas\source\repos\WebApplication\WebApplication\obj\Debug\netcoreapp2.1\WebApplication.dll
+C:\Users\pedro.dantas\source\repos\WebApplication\WebApplication\obj\Debug\netcoreapp2.1\WebApplication.pdb
+C:\Users\pedro.dantas\source\repos\WebApplication\WebApplication\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\pedro.dantas\source\repos\WebApplication\WebApplication\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\pedro.dantas\source\repos\WebApplication\WebApplication\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
