@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-using System.Data;
-using System.Data.SqlClient;
+using WebApplication.Repositores;
 
 /*Controller é um objeto que manipula as solicitações HTTP (Via POSTMAN). Ele pode retornar uma lista de contas ou uma única conta através do ID.
 Além das operações da CRUD*/
@@ -10,20 +10,49 @@ namespace WebApplication.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class meudeusdoceufuncionaController : ControllerBase
+    public class agenciaController : ControllerBase
     {
         // GET api/agencia
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "Isso", "Funciona" };
+            List<string> readLoaded = Model.GetNamesClientes();
+            List<string> NamesLoaded = new List<string>();
+
+            if (readLoaded == null)
+            {
+                return null;
+            }
+            else
+            {
+                foreach (var item in readLoaded)
+                {
+                    NamesLoaded.Add(item);
+                }
+            }
+            return NamesLoaded;
         }
 
         // GET api/agencia/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public ActionResult<List<string>> Get(int id)
         {
-            return "value";
+            List<string> readLoaded = Model.GetNameById(id);
+            List<string> NamesByIdLoaded = new List<string>();
+
+            if (readLoaded == null)
+            {
+                return null;
+            }
+            else
+            {
+                foreach (var item in readLoaded)
+                {
+                    NamesByIdLoaded.Add(item);
+                }
+            }
+            return NamesByIdLoaded;
+            
         }
 
         // POST api/agencia
@@ -35,7 +64,7 @@ namespace WebApplication.Controllers
 
         // PUT api/agencia/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public void PutFromCliente(int id, [FromBody] string value)
         {
 
         }
