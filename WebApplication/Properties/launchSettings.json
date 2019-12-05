@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/agencia",
+      "launchUrl": "api/agencias",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -20,7 +20,7 @@
     "WebApplication": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/agencia",
+      "launchUrl": "api/agencias",
       "applicationUrl": "http://localhost:1433",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
